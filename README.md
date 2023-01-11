@@ -82,7 +82,7 @@ Each reasoning step of the reasoning chain can be termed as a hop.
 
 ### Create Virtual Environment and install dependencies listed in requirements.txt
 * `python3 -m venv virtualenv`
-* `source virtualenv/bin/Activate`
+* `source virtualenv/bin/activate`
 * `pip3 install -r requirements.txt`
 
 ### Run the Server from terminal or other configuration environment
