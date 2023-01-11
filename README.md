@@ -17,9 +17,7 @@ For the collection of the dataset our primary corpus will be the research data f
 
 # Example of Multi-hop Questions: 
 
-Multi-hop questions require systems to aggregate information between multiple contexts, the ability of a system to reason over various sources of institutional data such as Google Scholar, University faculty websites and output desired answer. Similarly multi-step reasoning has been perfomred by a model if it reaches one or more intermediate conclusions before concluding the final answer and each of the intermediate
-conclusions serves as a necessary premise for the next one. This sequence of intermediate and the
-final conclusions is called a reasoning chain and Each reasoning step of the reasoning chain can be termed as a hop.
+Multi-hop questions require systems to aggregate information between multiple contexts, the ability of a system to reason over various sources of institutional data such as Google Scholar, University faculty websites and output desired answer. Similarly multi-step reasoning has been perfomred by a model if it reaches one or more intermediate conclusions before concluding the final answer and each of the intermediate conclusions serves as a necessary premise for the next one. This sequence of intermediate and the final conclusions is called a reasoning chain and Each reasoning step of the reasoning chain can be termed as a hop.
 
 ### [Chcek the image...](https://github.com/Rakin061/Smart-Weather-Agent/blob/master/static/Screenshot.png)
 
@@ -33,25 +31,25 @@ final conclusions is called a reasoning chain and Each reasoning step of the rea
 
 # Requirements 
 
-        #asgiref==3.5.2
-        #click==8.1.3
-        #Django==4.1.2
-        #joblib==1.2.0
-        #nltk==3.8.1
-        #numpy==1.23.4
-        #pandas==1.5.1
-        #python-dateutil==2.8.2
-        #pytz==2022.6
-        #regex==2022.10.31
-        #six==1.16.0
-        #sqlparse==0.4.3
-        #tqdm==4.64.1
+        `asgiref==3.5.2
+        click==8.1.3
+        Django==4.1.2
+        joblib==1.2.0
+        nltk==3.8.1
+        numpy==1.23.4
+        pandas==1.5.1
+        python-dateutil==2.8.2
+        pytz==2022.6
+        regex==2022.10.31
+        six==1.16.0
+        sqlparse==0.4.3
+        tqdm==4.64.1`
 
 # Dependencies
 
-        #Python >= 3.8
-        #Django >= 4.1.x
-        #NLTK >=3.8.1
+        `Python >= 3.8
+        Django >= 4.1.x
+        NLTK >=3.8.1`
 
 ### Download NLTK Data
 * `pip install nltk`
