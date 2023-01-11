@@ -31,7 +31,7 @@ Multi-hop questions require systems to aggregate information between multiple co
 
 # Requirements 
 
-        `asgiref==3.5.2
+        asgiref==3.5.2
         click==8.1.3
         Django==4.1.2
         joblib==1.2.0
@@ -43,13 +43,13 @@ Multi-hop questions require systems to aggregate information between multiple co
         regex==2022.10.31
         six==1.16.0
         sqlparse==0.4.3
-        tqdm==4.64.1`
+        tqdm==4.64.1
 
 # Dependencies
 
-        `Python >= 3.8
+        Python >= 3.8
         Django >= 4.1.x
-        NLTK >=3.8.1`
+        NLTK >=3.8.1
 
 ### Download NLTK Data
 * `pip install nltk`
