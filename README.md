@@ -88,8 +88,8 @@ paragraph, and `sent_id` denotes the supporting fact's id (0-based) in this para
 of strings.
 
 There are other keys that are not used in our code, but might be used for other purposes (note that these keys are not present in the test sets, and your model should not rely on these two keys for making preditions on the test sets):
-- `type`: either `comparison` or `bridge`, indicating the question type. (See our paper for more details).
-- `level`: one of `easy`, `medium`, and `hard`. (See our paper for more details).
+- `type`: either `comparison` or `bridge`, indicating the question type. 
+- `level`: one of `easy`, `medium`, and `hard`. 
 
 ### *** The dataset will be stored in the direcotry Dataset/{username} as json data per contributions. 
 
