@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<h1>About us!!</h1>
+	<h3>{{title|capfirst}}</h3>
+
+	<p>This is a template</p>
+
+	{{my_html|striptags|slugify}}
+
+	<p>{{my_number}} </p>
+	
+
+	<ul>
+	{% for x in my_list %}
+		{% if x == 123 %}
+			<li> {{ forloop.counter}} -{{x|add:10}} </li>
+		{% elif x == "abc" %}	
+			<li>This is not the network !! </li>
+		{% else %}
+			<li> {{ forloop.counter}} -{{x}} </li>
+		{% endif %}		
+
+	{% endfor %}
+	</ul>
+
+{% endblock content %}

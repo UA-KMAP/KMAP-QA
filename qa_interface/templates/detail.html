@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+<h1>List of Questions, Answers and Contexts</h1>
+
+<table border="2" class="table table-hover " > 
+	<tr> 
+		<th>ID</th>
+		<th>Question</th>
+		<th>Answers</th>
+		<th>Contexts</th>
+		<th>User</th>
+		<th>Time</th>
+		<th>Action</th>
+	</tr>
+
+	{% for element in elements %}
+		<tr>
+			<td><a href="{{element.get_absolute_url}}">{{element.id}}</a></td>
+			<td style="width:30%">{{element.question}}</td>
+			<td>{{element.answer}}</td>
+			<td>Paragraph A,B</td>
+			<td>rakin061</td>
+			<td>Current Time</td>
+			<td><a href="/delete/{{element.id}}">Delete</a>  || <a href="{{element.get_absolute_url}}">Details</a></td>
+		</tr>
+	{% endfor %}
+
+</table>
+
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+
+{% endblock %} 

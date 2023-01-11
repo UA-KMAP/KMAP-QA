@@ -1,0 +1,30 @@
+{
+    "id": "rmaier",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "rmaier's biography",
+            "rmaier's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "rmaier's biography",
+            "rmaier's articles"
+        ],
+        "sentences": [
+            [],
+            []
+        ]
+    },
+    "User_name": "salman",
+    "Date": "2022-12-21",
+    "time": "06:01:08"
+}

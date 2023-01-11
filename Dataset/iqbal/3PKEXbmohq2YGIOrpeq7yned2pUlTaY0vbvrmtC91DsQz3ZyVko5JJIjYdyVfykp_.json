@@ -1,0 +1,46 @@
+{
+    "id": "jrmales",
+    "Question": "asfsafsa",
+    "Answer": "asfsf",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "jrmales's biography",
+            "jrmales's articles"
+        ],
+        "sent_id": [
+            1,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "jrmales's biography",
+            "jrmales's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Males studies exoplanets (planets around stars other than our Sun), and develops techniques to characterize them with direct imaging from both the ground and with space telescopes.",
+                "He is part of the Magellan Adaptive Optics system (MagAO, link:https://visao.",
+                "as.",
+                "arizona.",
+                "edu/) instrument team, and uses MagAO to study exoplanet atmospheres.",
+                "Dr. Males is the principle investigator of the NSF-funded MagAO-X project, which is developing a new \"extreme\" AO system for the Magellan Clay telescope.",
+                "MagAO-X will deliver extremely high quality, high resolution images and spectra, and allow astronomers to image exoplanets closer to their bright host stars than ever before."
+            ],
+            [
+                "Dr. Males studies exoplanets (planets around stars other than our Sun), and develops techniques to characterize them with direct imaging from both the ground and with space telescopes.",
+                "He is part of the Magellan Adaptive Optics system (MagAO, link:https://visao.",
+                "as.",
+                "arizona.",
+                "edu/) instrument team, and uses MagAO to study exoplanet atmospheres.",
+                "Dr. Males is the principle investigator of the NSF-funded MagAO-X project, which is developing a new \"extreme\" AO system for the Magellan Clay telescope.",
+                "MagAO-X will deliver extremely high quality, high resolution images and spectra, and allow astronomers to image exoplanets closer to their bright host stars than ever before."
+            ]
+        ]
+    },
+    "User_name": "iqbal",
+    "Date": "2023-01-04",
+    "time": "22:31:54"
+}

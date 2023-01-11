@@ -1,0 +1,30 @@
+{
+    "id": "chertkov",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "chertkov's biography",
+            "chertkov's articles"
+        ],
+        "sent_id": [
+            2,
+            3
+        ]
+    },
+    "context": {
+        "title": [
+            "chertkov's biography",
+            "chertkov's articles"
+        ],
+        "sentences": [
+            [],
+            []
+        ]
+    },
+    "User_name": "rakin06",
+    "Date": "2022-12-21",
+    "time": "06:45:14"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "nadel",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "nadel's biography",
+            "nadel's articles"
+        ],
+        "sent_id": [
+            1,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "nadel's biography",
+            "nadel's articles"
+        ],
+        "sentences": [
+            [
+                "My work has focused on the functions of the hippocampus in memory and spatial cognition, including the study of stress and memory, sleep and memory, memory reconsolidation, and the mental retardation observed in Down syndrome."
+            ],
+            [
+                "My work has focused on the functions of the hippocampus in memory and spatial cognition, including the study of stress and memory, sleep and memory, memory reconsolidation, and the mental retardation observed in Down syndrome."
+            ]
+        ]
+    },
+    "User_name": "rakin06",
+    "Date": "2022-12-21",
+    "time": "05:10:17"
+}

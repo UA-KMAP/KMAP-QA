@@ -1,0 +1,40 @@
+{
+    "id": "yelle",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "yelle's biography",
+            "yelle's articles"
+        ],
+        "sent_id": [
+            1,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "yelle's biography",
+            "yelle's articles"
+        ],
+        "sentences": [
+            [
+                "Professor Yelle studies the atmospheres in our solar system and the atmospheres of extra-solar planets.",
+                "He analyzes telescopic and spacecraft data and constructs theories and models to determine the composition and structure of atmospheres and their interaction with surfaces and interplanetary space.",
+                "Current projects include the study of chemical, thermal and dynamical processes in Titan’s upper atmosphere using primarily data from the Cassini mission to the Saturn system, escape processes on Titan, Mars, and extra-solar planets, and the composition and chemistry of the martian atmosphere.",
+                "Yelle is a member of the Cassini Ion Neutral Mass Spectrometer Team and a co-I on the planned Maven mission to study the upper atmosphere of Mars."
+            ],
+            [
+                "Professor Yelle studies the atmospheres in our solar system and the atmospheres of extra-solar planets.",
+                "He analyzes telescopic and spacecraft data and constructs theories and models to determine the composition and structure of atmospheres and their interaction with surfaces and interplanetary space.",
+                "Current projects include the study of chemical, thermal and dynamical processes in Titan’s upper atmosphere using primarily data from the Cassini mission to the Saturn system, escape processes on Titan, Mars, and extra-solar planets, and the composition and chemistry of the martian atmosphere.",
+                "Yelle is a member of the Cassini Ion Neutral Mass Spectrometer Team and a co-I on the planned Maven mission to study the upper atmosphere of Mars."
+            ]
+        ]
+    },
+    "User_name": "salman",
+    "Date": "2022-12-21",
+    "time": "06:14:04"
+}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+
+<form action="../create/" method='POST'> {% csrf_token %}
+
+
+
+<div class="container pt-1">
+	<div class="form-group">
+
+		<!-- <div class="container">
+		  <nav class="navbar navbar-expand-lg nabar-light d-flex justify-content-center" style="background-color: #e3f2fd;">
+		    <div class="navbar-brand " > QA Interface</div>
+		  </nav>
+		</div> -->
+
+		<div class="container-fluid justify-content-center" style="border:1px solid #cecece;" > 
+		
+		 <div class="navbar-brand float-right" > 
+		 	<a class="btn btn-primary" href="/create">Next</a>
+		 </div>
+
+		 <!-- <div class="navbar-brand float-right" > 
+		 	<a class="btn btn-info shodow-none">Contributons: {{ contribution}}</a>
+		 </div> -->
+			{{ form.as_p }}
+			<input type="submit" value="Save" class="btn btn-primary">
+
+		</div>
+	</div>
+</div>
+</form>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+
+{% endblock %} 

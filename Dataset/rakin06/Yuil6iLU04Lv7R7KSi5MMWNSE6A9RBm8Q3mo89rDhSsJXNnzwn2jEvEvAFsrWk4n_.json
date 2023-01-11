@@ -1,0 +1,46 @@
+{
+    "id": "msurdeanu",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "msurdeanu's biography",
+            "msurdeanu's articles"
+        ],
+        "sent_id": [
+            3,
+            3
+        ]
+    },
+    "context": {
+        "title": [
+            "msurdeanu's biography",
+            "msurdeanu's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Surdeanu earned a Ph.D. in Computer Science from Southern Methodist University, Dallas, Texas, in 2001.",
+                "He has more than 15 years of experience in building systems driven by natural language processing (NLP) and machine learning.",
+                "His experience spans both academia (Stanford University, University of Arizona) and industry (Yahoo!",
+                "Research and two NLP-centric startups).",
+                "During his career he published more than 80 peer-reviewed articles, including two articles that were among the top three most cited articles at two different NLP conferences.",
+                "He was a leader or member of teams that ranked in the top three at seven highly competitive international evaluations of end-user NLP systems such as question answering and information extraction.",
+                "His work was funded by several government organizations (DARPA, NIH), as well as private foundations (the Allen Institute for Artificial Intelligence, the Bill & Melinda Gates Foundation)."
+            ],
+            [
+                "Dr. Surdeanu earned a Ph.D. in Computer Science from Southern Methodist University, Dallas, Texas, in 2001.",
+                "He has more than 15 years of experience in building systems driven by natural language processing (NLP) and machine learning.",
+                "His experience spans both academia (Stanford University, University of Arizona) and industry (Yahoo!",
+                "Research and two NLP-centric startups).",
+                "During his career he published more than 80 peer-reviewed articles, including two articles that were among the top three most cited articles at two different NLP conferences.",
+                "He was a leader or member of teams that ranked in the top three at seven highly competitive international evaluations of end-user NLP systems such as question answering and information extraction.",
+                "His work was funded by several government organizations (DARPA, NIH), as well as private foundations (the Allen Institute for Artificial Intelligence, the Bill & Melinda Gates Foundation)."
+            ]
+        ]
+    },
+    "User_name": "rakin06",
+    "Date": "2022-12-21",
+    "time": "05:11:47"
+}
