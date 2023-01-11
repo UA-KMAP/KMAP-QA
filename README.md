@@ -19,7 +19,7 @@ For the collection of the dataset our primary corpus will be the research data f
 
 Multi-hop questions require systems to aggregate information between multiple contexts, the ability of a system to reason over various sources of institutional data such as Google Scholar, University faculty websites and output desired answer. Similarly multi-step reasoning has been perfomred by a model if it reaches one or more intermediate conclusions before concluding the final answer and each of the intermediate conclusions serves as a necessary premise for the next one. This sequence of intermediate and the final conclusions is called a reasoning chain and Each reasoning step of the reasoning chain can be termed as a hop.
 
-### [Chcek the image...](https://github.com/Rakin061/Smart-Weather-Agent/blob/master/static/Screenshot.png)
+### [Chcek the image...](https://github.com/UA-KMAP/KMAP-QA/blob/main/qa_interface/templates/images/MHQA.png)
 
 
         # Multihop What is the population of the capital city of Bangladesh  ?
