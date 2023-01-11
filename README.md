@@ -7,17 +7,31 @@
 
 # Question Answering Interface
 
-QA dataset for institutional data that requires reasoning over multiple documents, and does so in natural language, without constraining itself to an existing knowledge base or schema. The goal is to collect a diverse and explainable question answering dataset similar to [HotpotQA](https://huggingface.co/datasets/hotpot_qa/viewer) but limited to only institutional research data. As it is non-trivial to collect text based multi-hop questions a specific data collection pipeline and data annotation mechanism has been designed to predict the correct answer to a question that requires multiple reasoning ‘hops’ across given contexts as institutional data. 
+QA dataset for institutional data that requires reasoning over multiple documents, and does so in natural language,
+without constraining itself to an existing knowledge base or schema. The goal is to collect a diverse and
+explainable question answering dataset similar to [HotpotQA](https://huggingface.co/datasets/hotpot_qa/viewer) but
+limited to only institutional research data. As it is non-trivial to collect text based multi-hop questions a
+specific data collection pipeline and data annotation mechanism has been designed to predict the correct answer to a
+question that requires multiple reasoning ‘hops’ across given contexts as institutional data. 
 
 # Data Collection Pipeline
 
-For the collection of the dataset our primary corpus will be the research data from the University of Arizona. And the data collection pipeline for our dataset will be performed by crowd sourcing where multiple supporting context documents will be shown and asked explicitly to come up with questions requiring reasoning over those contexts such as paragraphs, tables, profiles etc. This ensures coverage of multi-hop questions that are more natural and are not designed with any pre-existing knowledge base schema in mind.
+For the collection of the dataset our primary corpus will be the research data from the University of Arizona. And
+the data collection pipeline for our dataset will be performed by crowd sourcing where multiple supporting context
+documents will be shown and asked explicitly to come up with questions requiring reasoning over those contexts such
+as paragraphs, tables, profiles etc. This ensures coverage of multi-hop questions that are more natural and are not
+designed with any pre-existing knowledge base schema in mind.
 
 
 
 # Example of Multi-hop Questions: 
 
-Multi-hop questions require systems to aggregate information between multiple contexts, the ability of a system to reason over various sources of institutional data such as Google Scholar, University faculty websites and output desired answer. Similarly multi-step reasoning has been perfomred by a model if it reaches one or more intermediate conclusions before concluding the final answer and each of the intermediate conclusions serves as a necessary premise for the next one. This sequence of intermediate and the final conclusions is called a reasoning chain and Each reasoning step of the reasoning chain can be termed as a hop.
+Multi-hop questions require systems to aggregate information between multiple contexts, the ability of a system to
+reason over various sources of institutional data such as Google Scholar, University faculty websites and output 
+desired answer. Similarly multi-step reasoning has been perfomred by a model if it reaches one or more intermediate 
+conclusions before concluding the final answer and each of the intermediate conclusions serves as a necessary
+premise for the next one. This sequence of intermediate and the final conclusions is called a reasoning chain and
+Each reasoning step of the reasoning chain can be termed as a hop.
 
 ### [Chcek the image...](https://github.com/UA-KMAP/KMAP-QA/blob/main/qa_interface/templates/images/MHQA.png)
 
