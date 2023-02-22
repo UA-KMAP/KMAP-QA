@@ -1,0 +1,36 @@
+{
+    "id": "tteegers",
+    "Question": "Who has made contribution in the starburst phenomenon and also talked a lot about the Webb telescope ? ",
+    "Answer": "Rieke",
+    "type": "Intersection",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "tteegers's biography",
+            "tteegers's articles"
+        ],
+        "sent_id": [
+            1,
+            7
+        ]
+    },
+    "context": {
+        "title": [
+            "tteegers's biography",
+            "tteegers's articles"
+        ],
+        "sentences": [
+            [
+                "As the Associate Director for Tribal Extension Programs, Teegerstrom's responsibilities include providing assistance in the management and direction of tribal extension programs; which includes working with Tribal Nations across Arizona, unit heads, faculty, and staff in managing the personnel, financial, and physical resources.",
+                "As an Extension Specialist in the Department of Agricultural and Resource Economics, Teegerstrom's responsibilities include working in the areas of production economics and risk management education including cost and return estimates for the state's agriculture industry, beginning farmer and rancher initiatives, agricultural labor and risk management."
+            ],
+            [
+                "As the Associate Director for Tribal Extension Programs, Teegerstrom's responsibilities include providing assistance in the management and direction of tribal extension programs; which includes working with Tribal Nations across Arizona, unit heads, faculty, and staff in managing the personnel, financial, and physical resources.",
+                "As an Extension Specialist in the Department of Agricultural and Resource Economics, Teegerstrom's responsibilities include working in the areas of production economics and risk management education including cost and return estimates for the state's agriculture industry, beginning farmer and rancher initiatives, agricultural labor and risk management."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-02-22",
+    "time": "09:30:43"
+}
