@@ -10,7 +10,7 @@ class QA_Form(forms.ModelForm):
           'par_A': forms.Textarea(attrs={'rows':5, 'cols':125}),
           'par_B': forms.Textarea(attrs={'rows':5, 'cols':125}),
           'question': forms.Textarea(attrs={'rows':2, 'cols':100, 'placeholder': 'Enter a multi hop question from the above two paragraphs....'}),
-          'answer': forms.Textarea(attrs={'rows':2, 'cols':100,'placeholder':'Enter the answer ...' }),
+          'answer': forms.Textarea(attrs={'rows':1, 'cols':100,'placeholder':'Enter the answer ...' }),
           'supporting_facts':forms.Textarea(attrs={'rows':1, 'cols':5}),
           #'source_id': forms.HiddenInput(),
         }

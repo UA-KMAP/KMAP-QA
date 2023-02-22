@@ -9,7 +9,7 @@ class QA_Interface(models.Model):
 	#ource_id=models.CharField(max_length=20,blank=False,null=False) # max_length = required
 	par_A=models.TextField(blank=False, null=False)
 	par_B=models.TextField(blank=False, null=False)
-	question=models.TextField(blank=False, null=False, max_length=200)
+	question=models.TextField(blank=False, null=False, max_length=1000)
 	answer=models.TextField(blank=False, null=False, max_length=100)
 
 
