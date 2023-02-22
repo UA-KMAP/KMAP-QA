@@ -1,0 +1,35 @@
+{
+    "id": "rmcmilla",
+    "Question": "Whole peer-reviewed first-author papers from the 1970s were still being cited and used as many as 40 years later ?? ",
+    "Answer": "McMillan",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "rmcmilla's biography",
+            "rmcmilla's articles"
+        ],
+        "sent_id": [
+            0,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "rmcmilla's biography",
+            "rmcmilla's articles"
+        ],
+        "sentences": [
+            [
+                "McMillan's career has included studies of variable stars, statistics of stellar populations, interstellar dust, interstellar magnetic fields, planetary atmospheres, Doppler shift spectroscopy of stars, astronomical instrumentation, and surveys of asteroids."
+            ],
+            [
+                "He has worked in the last four disciplines from 1979 to the present while at the Lunar and Planetary Laboratory at the University of Arizona.",
+                "Some of McMillan's peer-reviewed first-author papers from the 1970s were still being cited and used as many as 40 years later."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-02-20",
+    "time": "17:26:34"
+}
