@@ -33,3 +33,6 @@ class QA_Form(forms.ModelForm):
            'question' : 'Question',
            'answer' : '_Answer_',
         }
+
+
+

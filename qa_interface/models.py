@@ -21,7 +21,7 @@ class QA_Interface(models.Model):
 
     #question_type=models.CharField(max_length=12, choices=question_type_choices,default='Bridge_entity')
 	#price=models.DecimalField(decimal_places=2, max_digits=10000)
-	supporting_facts=models.TextField(blank=False, null=False,max_length=4)
+	supporting_facts=models.TextField(blank=False, null=False,max_length=4, help_text=' &nbsp; <button type="button" class="btn btn-info" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Supporting facts indicates sentences involved while creating the multi hop question from both of the paragraphs..."> ? </button>')
 	#featured=models.BooleanField(default=True) # null=True, default=True
 
 
