@@ -10,6 +10,15 @@
 
 
 <div class="container pt-1">
+
+ {% if user.is_authenticated %}
+        <div class="d-flex justify-content-left">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Author Tittle:- {{author_id}}</button>
+            
+        </div>
+ {%endif%}
+ <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+
 	<div class="form-group">
 
 		<!-- <div class="container">

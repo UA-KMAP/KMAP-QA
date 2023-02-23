@@ -18,12 +18,13 @@ import pandas as pd
 #username='rakin061'  
 
 def create_view(request):
-	print(request.GET)
+	#print(request.GET)
 	print(request.POST)
 	username=str(request.user)
 	form=QA_Form(request.POST or None)
 
 	print(form.is_valid())
+	print(form.errors.as_data())
 
 	data=pd.read_csv("KMAP_NLP_Dataset - Sample Dataset.csv")
 	df = pd.DataFrame(data)
@@ -117,12 +118,13 @@ def create_view(request):
 			contribution=len([name for name in os.listdir(directory_name) if os.path.isfile(os.path.join(directory_name, name))])
 
 
-		form=QA_Form(initial={'par_A': param_a_script,'par_B': param_b_script,"source_id":source_id})
+		form=QA_Form(initial={'title_A':'Paragraph A: '+title_a,'title_B':'Paragraph B: '+title_b,'par_A': param_a_script,'par_B': param_b_script,"source_id":source_id})
 
 		context={
 			"form": form,
 			"contribution": contribution,
-			"username":username
+			"username":username,
+			"author_id":source_id
 		}
 		return render(request,"qa_create.html",context)
 
