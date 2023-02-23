@@ -19,7 +19,7 @@ import pandas as pd
 
 def create_view(request):
 	#print(request.GET)
-	print(request.POST)
+	#print(request.POST)
 	username=str(request.user)
 	form=QA_Form(request.POST or None)
 
@@ -38,22 +38,25 @@ def create_view(request):
 	title_b=rand_row['titleB'].item()
 	source_id= rand_row['ID'].item()
 	
+	
 
 	if form.is_valid():
 		form.save()
 		form=QA_Form()
 		
-		question_id=request.POST['csrfmiddlewaretoken']
+		question_id=request.POST['source_id']
 		question=request.POST['question']
 		answer=request.POST['answer']
+		title_a=request.POST['title_A']
 		par_A=split_into_sentences(param_a)
+		title_b=request.POST['title_B']
 		par_B=split_into_sentences(param_b)
 		question_type=request.POST['question_type']
 		level=request.POST['level']
 		supporting_facts=request.POST['supporting_facts']
 		insert_date=str(date.today())
 		time=datetime.now().strftime('%H:%M:%S')  
-		print(question_id,question,answer,par_B,par_B,username,insert_date,time )
+		#print(question_id,question,answer,par_B,par_B,username,insert_date,time )
 
 		sentences=[par_A,par_B]
 		supporting_facts=supporting_facts.split(',')
@@ -74,7 +77,7 @@ def create_view(request):
 
 
 		dictionary = {
-		    "id": source_id,
+		    "id": question_id,
 		    "Question": question,
 		    "Answer": answer,
 		    "type":question_type,
@@ -118,7 +121,7 @@ def create_view(request):
 			contribution=len([name for name in os.listdir(directory_name) if os.path.isfile(os.path.join(directory_name, name))])
 
 
-		form=QA_Form(initial={'title_A':'Paragraph A: '+title_a,'title_B':'Paragraph B: '+title_b,'par_A': param_a_script,'par_B': param_b_script,"source_id":source_id})
+		form=QA_Form(initial={'title_A':title_a,'title_B':title_b,'par_A': param_a_script,'par_B': param_b_script,"source_id":source_id})
 
 		context={
 			"form": form,

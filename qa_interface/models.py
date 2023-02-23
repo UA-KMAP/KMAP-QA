@@ -6,8 +6,7 @@ from django.urls import reverse
 
 class QA_Interface(models.Model):
 	
-	#source_id=models.CharField(max_length=20,blank=False,null=False) # max_length = required
-
+	source_id=models.CharField(max_length=30,blank=False,null=False) # max_length = required
 	title_A=models.CharField(blank=False, null=False,max_length=35)
 	par_A=models.TextField(blank=False, null=False)
 	title_B=models.CharField(blank=False, null=False,max_length=35)
