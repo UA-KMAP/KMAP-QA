@@ -14,7 +14,7 @@
     /* Popover */
     .popover {
       border: 2px dotted red;
-      width: 450px;
+      max-width: 50%;
       font-size: 13px;
       text-align:center;
     }
@@ -51,6 +51,12 @@
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
       return new bootstrap.Popover(popoverTriggerEl)
     })
+
+    var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+      container: 'body',
+    })
+
+
   </script>
 </html>
 

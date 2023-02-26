@@ -23,7 +23,11 @@ class QA_Interface(models.Model):
 
     #question_type=models.CharField(max_length=12, choices=question_type_choices,default='Bridge_entity')
 	#price=models.DecimalField(decimal_places=2, max_digits=10000)
-	supporting_facts=models.TextField(blank=False, null=False,max_length=4, help_text=' &nbsp; <button type="button" class="btn btn-info" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Supporting facts indicates sentences involved while creating the multi hop question from both of the paragraphs..."> ? </button>')
+	supporting_facts=models.TextField(blank=False, null=False,max_length=4, help_text=' &nbsp; <button type="button" class="btn btn-info" data-bs-container="body" '
+																					  'data-bs-toggle="popover" data-bs-placement="right" data-bs-html="true" '
+																					  'data-bs-content="Supporting facts specify the sentences involved while creating the multi hop question from '
+																					  'both of the paragraphs.<br> <b>Example Input: 0,1. </b> It indicates that first sentence from the first paragraph and '
+																					  'second sentence from the second paragraph have been used to produce the multi hop question.. <a href='' title=''test add link'' >  "> ? </button>')
 	#featured=models.BooleanField(default=True) # null=True, default=True
 
 
