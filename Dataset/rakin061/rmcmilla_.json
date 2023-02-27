@@ -1,0 +1,50 @@
+{
+    "id": "rmcmilla",
+    "Question": "Which professor studied stars, statistics  whose papers from the 1970s were still being cited ??",
+    "Answer": "McMillan",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "rmcmilla's biography",
+            "rmcmilla's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "rmcmilla's biography",
+            "rmcmilla's articles"
+        ],
+        "sentences": [
+            [
+                "He obtained his Ph.D. in Microbiology from the University of Miami, Florida and was a faculty member in the Department of Virology and Epidemiology at Baylor College of Medicine from 1974 to 1981.",
+                "He conducts research the transmission of pathogens through the environment.",
+                "His recent research encompasses the transmission of pathogens by water, food and fomites; fate of pathogens in land applied wastes; development of new disinfectants; domestic microbiology and microbial risk assessment.",
+                "He has been an author on more than 500 articles including several books in environmental microbiology, risk assessment, and pollution science.",
+                "He is a fellow of the American Academy of Microbiology, American Association for the Advancement of Science, and the International Water Association.",
+                "He is editor-in-chief of the Journal of Water and Health sponsored by the World Health Organization.",
+                "He has served on the Science Advisory Board of the United States Environmental Protection Agency for nine years, and is currently a member of the Food Advisory Board of the U. S. Food and Drug Administration.",
+                "In 1998 he received the A. P. Black Award from the American Water Works Association for outstanding contributions to water science and in 1996 he received the McKee medal from the Water Environment Federation for outstanding contributions to groundwater protection.",
+                "He received the 1999 Award of Excellence in Environmental Health from National Association of County and City Health Officials."
+            ],
+            [
+                "He obtained his Ph.D. in Microbiology from the University of Miami, Florida and was a faculty member in the Department of Virology and Epidemiology at Baylor College of Medicine from 1974 to 1981.",
+                "He conducts research the transmission of pathogens through the environment.",
+                "His recent research encompasses the transmission of pathogens by water, food and fomites; fate of pathogens in land applied wastes; development of new disinfectants; domestic microbiology and microbial risk assessment.",
+                "He has been an author on more than 500 articles including several books in environmental microbiology, risk assessment, and pollution science.",
+                "He is a fellow of the American Academy of Microbiology, American Association for the Advancement of Science, and the International Water Association.",
+                "He is editor-in-chief of the Journal of Water and Health sponsored by the World Health Organization.",
+                "He has served on the Science Advisory Board of the United States Environmental Protection Agency for nine years, and is currently a member of the Food Advisory Board of the U. S. Food and Drug Administration.",
+                "In 1998 he received the A. P. Black Award from the American Water Works Association for outstanding contributions to water science and in 1996 he received the McKee medal from the Water Environment Federation for outstanding contributions to groundwater protection.",
+                "He received the 1999 Award of Excellence in Environmental Health from National Association of County and City Health Officials."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-02-27",
+    "time": "10:21:20"
+}

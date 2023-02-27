@@ -13,7 +13,6 @@ from nltk.tokenize import sent_tokenize
 import json,re,os.path
 import pandas as pd 
 
-# Create your views here.
 
 #username='rakin061'  
 
@@ -37,8 +36,6 @@ def create_view(request):
 	title_a=rand_row['titleA'].item()
 	title_b=rand_row['titleB'].item()
 	source_id= rand_row['ID'].item()
-	
-	
 
 	if form.is_valid():
 		form.save()
@@ -62,8 +59,6 @@ def create_view(request):
 		supporting_facts=supporting_facts.split(',')
 		supporting_facts= list(map(int,supporting_facts))
 
-
-
 		supporting_facts={
 			"title":[ title_a, title_b ], 
 			"sent_id": supporting_facts
@@ -73,8 +68,6 @@ def create_view(request):
 			"title":[ title_a,title_b ], 
 			"sentences": sentences
 		}
-
-
 
 		dictionary = {
 		    "id": question_id,
