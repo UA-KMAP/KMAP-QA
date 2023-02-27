@@ -36,9 +36,9 @@ Each reasoning step of the reasoning chain can be termed as a hop.
 ### [Chcek the image...](https://github.com/UA-KMAP/KMAP-QA/blob/main/qa_interface/templates/images/MHQA.png)
 
 
-        # Multihop What is the population of the capital city of Bangladesh  ?
+        # Multihop Question: What is the population of the capital city of Bangladesh  ?
         # Answer: 40 Millions !!
-        # Reasoning: Capital City of Bangladesh: Dhaka ---> Population: 40 Millions
+        # Reasoning: Capital City of Bangladesh ---> Dhaka ---> Population: 40 Millions
         .............
 
  

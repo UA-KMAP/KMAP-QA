@@ -13,10 +13,12 @@
   <style>
     /* Popover */
     .popover {
-      border: 2px dotted red;
-      max-width: 50%;
-      font-size: 14px;
-      text-align:center;
+        border: 2px dotted red;
+        max-width: 50%;
+        font-size: 14px;
+        text-align:justify;
+        vertical-align: top;
+
     }
 
     .title{
@@ -47,8 +49,17 @@
 
   </body>
   <script>
-        var popover = new bootstrap.Popover(document.querySelector('[data-bs-toggle="popover"]'), {
-          html: true
+
+       {#var popover = new bootstrap.Popover(document.querySelector('[data-bs-toggle="popover-level"]'), {#}
+       {#   html: true#}
+       {# })#}
+       {# var popover = new bootstrap.Popover(document.querySelector('[data-bs-toggle="popover"]'), {#}
+       {#   html: true#}
+       {# })#}
+
+       var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+       var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
         })
 
 
