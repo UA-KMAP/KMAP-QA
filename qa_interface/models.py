@@ -18,7 +18,7 @@ class QA_Interface(models.Model):
 																				      'data such as paragraphs to output desired answer. Here, the system has to reason with information taken from more than one document '
 																				      '(i.e. Parapgaphs) to arrive at the final answer. <br> <br> <b> Example: </b> What is the population of the capital city of Bangladesh ? '
 																				      '<br> <b>Answer: </b> 40 Millions !!'
-																				 	  '<br> <b>Reasoning:</b> Capital City of Bangladesh ---> Dhaka ---> Population: 40 Millions '
+																				 	  '<br> <b>Reasoning:</b> Capital City of Bangladesh ---> Dhaka ---> Population: 40 Millions. '
 																				      '<br> <br> Click <a href='' https://hotpotqa.github.io/ '' '
 																				      'target=''_blank'' > here </a> to see further details of multihop questions ! "> ? </button>')
 	answer=models.TextField(blank=False, null=False, max_length=100)
