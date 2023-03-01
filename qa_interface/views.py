@@ -1,3 +1,5 @@
+import fnmatch
+
 from django.shortcuts import render,redirect
 from django.http import Http404
 
@@ -31,7 +33,7 @@ def create_view(request):
 		form.save()
 		form=QA_Form()
 		
-		question_id=request.POST['source_id']
+		author_id=request.POST['source_id']
 		question=request.POST['question']
 		answer=request.POST['answer']
 		title_a=request.POST['title_A']
@@ -60,7 +62,7 @@ def create_view(request):
 		}
 
 		dictionary = {
-		    "id": question_id,
+		    "id": author_id,
 		    "Question": question,
 		    "Answer": answer,
 		    "type":question_type,
@@ -74,7 +76,7 @@ def create_view(request):
 		
 		#json_object = json.dumps(dictionary, indent=4)
 
-		file_name=question_id+'_.json'
+		#file_name=author_id+'_.json'
 		directory_name="Dataset/"+username+"/"
 
 		file_or_directory=Path(directory_name)
@@ -83,6 +85,27 @@ def create_view(request):
 			print("directory  exits---")
 		else:
 			file_or_directory.mkdir(parents=True, exist_ok=True)
+
+
+		#Handling duplicate files for certain users...
+
+		author_name_pattern = author_id + '*.json'
+
+		for root, dirs, files in os.walk(directory_name):
+			count_list = []
+			for name in files:
+				if fnmatch.fnmatch(name, author_name_pattern):
+					count = name[-6]
+					if count == "_":
+						count_list.append(1)
+					else:
+						count_list.append(int(count) + 1)
+			print(count_list)
+			if not count_list:
+				file_name = author_id + '_.json'
+			else:
+				file_name = author_id + str(max(count_list)) + '.json'
+
 
 		with open(directory_name+file_name, "w",encoding='utf-8') as outfile:
 			json.dump(dictionary,outfile, ensure_ascii=False,indent=4)

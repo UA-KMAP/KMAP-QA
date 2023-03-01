@@ -1,0 +1,50 @@
+{
+    "id": "nnp",
+    "Question": "Who is the Director of an NSF IUCRC and also an fellow of APS",
+    "Answer": "Nasser Peyghambarian",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "nnp's biography",
+            "nnp's articles"
+        ],
+        "sent_id": [
+            2,
+            9
+        ]
+    },
+    "context": {
+        "title": [
+            "nnp's biography",
+            "nnp's articles"
+        ],
+        "sentences": [
+            [
+                "Nasser Peyghambarian received his Ph.D in solid-state Physics from Indiana University in 1982, specializing in optical properties of semiconductors.",
+                "He joined the University of Arizona in 1982 where he is currently a Professor at both the College of Optical Sciences and the Department of Materials Science & Engineering.",
+                "He is an adjunct professor at the Electrical Center for Integrated Access Networks, 2008-present.",
+                "He was also the Director of an NSF IUCRC on Optoelectronic Devices, Integration and Packaging, 1991-2002.",
+                "He is also Chair of Photonics and Lasers at the University of Arizona as well as Director of the Photonics Initiative.",
+                "He has over 500 publications in refereed journals and more than 25 patents.",
+                "His research interests include optical networks and optical communication, fiber optics, fiber lasers and amplifiers, organic photonics, 3D holographic display and 3D telepresence, nonlinear photonics, optical modulators and switches, laser spectroscopy, nanostructures, and quantum dots.",
+                "He is the Founder of TIPD, LLC, and NP Photonics, Inc. [8] He is the recipient of the U of A 2007 Technology Innovation Award, International Francqui Chair, Belgium 1998-1999, TRW Young Faculty Award, and 3M Company's Young Faculty Award.",
+                "He is a Fellow of the American Association for the Advancement of Science, the Optical Society of America (OSA), the Society for optical engineers (SPIE), and the American Physical Society (APS)."
+            ],
+            [
+                "Nasser Peyghambarian received his Ph.D in solid-state Physics from Indiana University in 1982, specializing in optical properties of semiconductors.",
+                "He joined the University of Arizona in 1982 where he is currently a Professor at both the College of Optical Sciences and the Department of Materials Science & Engineering.",
+                "He is an adjunct professor at the Electrical Center for Integrated Access Networks, 2008-present.",
+                "He was also the Director of an NSF IUCRC on Optoelectronic Devices, Integration and Packaging, 1991-2002.",
+                "He is also Chair of Photonics and Lasers at the University of Arizona as well as Director of the Photonics Initiative.",
+                "He has over 500 publications in refereed journals and more than 25 patents.",
+                "His research interests include optical networks and optical communication, fiber optics, fiber lasers and amplifiers, organic photonics, 3D holographic display and 3D telepresence, nonlinear photonics, optical modulators and switches, laser spectroscopy, nanostructures, and quantum dots.",
+                "He is the Founder of TIPD, LLC, and NP Photonics, Inc. [8] He is the recipient of the U of A 2007 Technology Innovation Award, International Francqui Chair, Belgium 1998-1999, TRW Young Faculty Award, and 3M Company's Young Faculty Award.",
+                "He is a Fellow of the American Association for the Advancement of Science, the Optical Society of America (OSA), the Society for optical engineers (SPIE), and the American Physical Society (APS)."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-01",
+    "time": "11:32:33"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "crasmuss",
+    "Question": "aa",
+    "Answer": "bb",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "crasmuss's biography",
+            "crasmuss's articles"
+        ],
+        "sent_id": [
+            0,
+            0
+        ]
+    },
+    "context": {
+        "title": [
+            "crasmuss's biography",
+            "crasmuss's articles"
+        ],
+        "sentences": [
+            [
+                "Craig Rasmussen's research focuses on characterizing soil processes and soil genesis at the pedon, landscape, and regional scale.",
+                "Specific areas of interest include soil formation and soil forming processes; the role of soil mineral assemblage in controlling soil organic carbon dynamics and sequestration; soil mineralogy and mineral weathering; interaction of soil development with soil-water and vegetation dynamics in arid and semiarid ecosystems; and use of environmental datasets to model and predict soil type distribution on the landscape."
+            ],
+            [
+                "Craig Rasmussen's research focuses on characterizing soil processes and soil genesis at the pedon, landscape, and regional scale.",
+                "Specific areas of interest include soil formation and soil forming processes; the role of soil mineral assemblage in controlling soil organic carbon dynamics and sequestration; soil mineralogy and mineral weathering; interaction of soil development with soil-water and vegetation dynamics in arid and semiarid ecosystems; and use of environmental datasets to model and predict soil type distribution on the landscape."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-01",
+    "time": "11:31:13"
+}
