@@ -1,0 +1,42 @@
+{
+    "id": "saleska",
+    "Question": "Which professor works on climate interactions and also worked in the Amazon ? ",
+    "Answer": "Scott Saleska",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "saleska's biography",
+            "saleska's articles"
+        ],
+        "sent_id": [
+            0,
+            4
+        ]
+    },
+    "context": {
+        "title": [
+            "saleska's biography",
+            "saleska's articles"
+        ],
+        "sentences": [
+            [
+                "Scott Saleska’s research focuses on how climate interacts with plant physiology, demography, and ecological processes to influence or control biogeochemical cycling from local to global scales.",
+                "Dr. Saleska uses multidisciplinary approaches that combine classical techniques of field ecology and forestry with advanced technological methods and modeling to integrate biogeochemical processes to ecosystem scales.",
+                "Dr. Saleskaalso is interested in the effect of human activities on these processes and on the sustainable functioning of the biosphere in general.",
+                "Two current projects include using new technologies to measure whole-ecosystem isotopic exchange and understanding Amazon forest carbon exchange.",
+                "His work in the Amazon is designed to build upon ongoing investigations of how forest demography and disturbance dynamics control carbon cycling in old-growth Amazon forest."
+            ],
+            [
+                "Scott Saleska’s research focuses on how climate interacts with plant physiology, demography, and ecological processes to influence or control biogeochemical cycling from local to global scales.",
+                "Dr. Saleska uses multidisciplinary approaches that combine classical techniques of field ecology and forestry with advanced technological methods and modeling to integrate biogeochemical processes to ecosystem scales.",
+                "Dr. Saleskaalso is interested in the effect of human activities on these processes and on the sustainable functioning of the biosphere in general.",
+                "Two current projects include using new technologies to measure whole-ecosystem isotopic exchange and understanding Amazon forest carbon exchange.",
+                "His work in the Amazon is designed to build upon ongoing investigations of how forest demography and disturbance dynamics control carbon cycling in old-growth Amazon forest."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-01",
+    "time": "10:16:49"
+}

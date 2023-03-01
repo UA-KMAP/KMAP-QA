@@ -53,6 +53,17 @@
           return new bootstrap.Popover(popoverTriggerEl)
         })
 
+       //Textarea vertical justify..
+
+       $("textarea").each(function () {
+          this.setAttribute("style", "height:" + (this.scrollHeight) + "px;overflow-y:hidden;");
+          //this.setAttribute("style","text-align:justify");
+          console.log(this.innerHTML);
+        }).on("input", function () {
+          this.style.height = 0;
+          this.style.height = (this.scrollHeight) + "px";
+        });
+
 
   </script>
 </html>

@@ -25,17 +25,7 @@ def create_view(request):
 	print(form.is_valid())
 	print(form.errors.as_data())
 
-	data=pd.read_csv("KMAP_NLP_Dataset - Sample Dataset.csv")
-	df = pd.DataFrame(data)
-	#df=df.head(100)
-	#df=df.fillna('Dr. Mark L. Brusseau is a professor in the School of Earth and Environmental Sciences at the University of Arizona, with joint appointments in the Soil, Water and Environmental Science Department and the Hydrology and Water Resources Department.')
-	rand_row=df.sample()
-	print(rand_row)
-	param_a=rand_row['ParagraphA'].item()
-	param_b=rand_row['ParagraphB'].item() 
-	title_a=rand_row['titleA'].item()
-	title_b=rand_row['titleB'].item()
-	source_id= rand_row['ID'].item()
+
 
 	if form.is_valid():
 		form.save()
@@ -45,9 +35,9 @@ def create_view(request):
 		question=request.POST['question']
 		answer=request.POST['answer']
 		title_a=request.POST['title_A']
-		par_A=split_into_sentences(param_a)
+		par_A=script_context(request.POST['par_A'])
 		title_b=request.POST['title_B']
-		par_B=split_into_sentences(param_b)
+		par_B=script_context(request.POST['par_B'])
 		question_type=request.POST['question_type']
 		level=request.POST['level']
 		supporting_facts=request.POST['supporting_facts']
@@ -100,7 +90,19 @@ def create_view(request):
 
 		return redirect('/create')
 
-	else: 
+	else:
+
+		data = pd.read_csv("KMAP_NLP_Dataset - Sample Dataset.csv")
+		df = pd.DataFrame(data)
+		# df=df.head(100)
+		# df=df.fillna('Dr. Mark L. Brusseau is a professor in the School of Earth and Environmental Sciences at the University of Arizona, with joint appointments in the Soil, Water and Environmental Science Department and the Hydrology and Water Resources Department.')
+		rand_row = df.sample()
+		print(rand_row)
+		param_a = rand_row['ParagraphA'].item()
+		param_b = rand_row['ParagraphB'].item()
+		title_a = rand_row['titleA'].item()
+		title_b = rand_row['titleB'].item()
+		source_id = rand_row['ID'].item()
 
 		param_a_script=split_into_sentences_script(param_a)
 		param_b_script=split_into_sentences_script(param_b)
@@ -175,8 +177,16 @@ def split_into_sentences_script(text):
 		i=i+1
 
 	sentences = [s.strip() for s in sentences]
+	sentences=' '.join(sentences)
 	return sentences
 
-def split_into_sentences(text):
+def script_context(text):
 	sentences = sent_tokenize(text)
-	return sentences
+	context_list=[]
+	for sentence in sentences:
+		context=sentence[4:]
+		context_list.append(context)
+	return context_list
+
+
+
