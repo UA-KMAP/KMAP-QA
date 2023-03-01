@@ -20,6 +20,13 @@
         vertical-align: top;
     }
 
+    .paragraph, .question, .answer{
+        max-width: 100%;
+        color:black;
+        font-weight: 400;
+        text-align: justify;
+    }
+
     .title{
       color: ghostwhite;
       background-color: darkcyan;
@@ -56,13 +63,17 @@
        //Textarea vertical justify..
 
        $("textarea").each(function () {
+
+
           this.setAttribute("style", "height:" + (this.scrollHeight) + "px;overflow-y:hidden;");
+
           //this.setAttribute("style","text-align:justify");
-          console.log(this.innerHTML);
+          //console.log(this.innerHTML);
         }).on("input", function () {
           this.style.height = 0;
-          this.style.height = (this.scrollHeight) + "px";
+          this.style.height = (this.scrollHeight) +"px";
         });
+
 
 
   </script>
