@@ -8,11 +8,11 @@ class QA_Form(forms.ModelForm):
 		model=QA_Interface
 		widgets = {
 		  'title_A':forms.TextInput(attrs={'size':'20','class':'title'}),
-          'par_A': forms.Textarea(attrs={'rows':2, 'cols':125,'class':'paragraph'}),
+          'par_A': forms.Textarea(attrs={'rows':2, 'cols':140,'class':'paragraph'}),
           'title_B':forms.TextInput(attrs={'size':'20','class':'title'}),
-          'par_B': forms.Textarea(attrs={'rows':2, 'cols':125,'class':'paragraph'}),
-          'question': forms.Textarea(attrs={'rows':1, 'cols':100, 'placeholder': 'Enter a multi hop question from the above two paragraphs....'}),
-          'answer': forms.Textarea(attrs={'rows':1, 'cols':100,'placeholder':'Enter the answer ...' }),
+          'par_B': forms.Textarea(attrs={'rows':2, 'cols':140,'class':'paragraph'}),
+          'question': forms.Textarea(attrs={'rows':1, 'cols':100,'class':'question', 'placeholder': 'Enter a multi hop question from the above two paragraphs....'}),
+          'answer': forms.Textarea(attrs={'rows':1, 'cols':100,'class':'answer','placeholder':'Enter the answer ...' }),
           'supporting_facts':forms.Textarea(attrs={'rows':1, 'cols':5}),
           'source_id': forms.HiddenInput(),
         }
