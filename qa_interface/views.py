@@ -44,7 +44,7 @@ def create_view(request):
 		level=request.POST['level']
 		supporting_facts=request.POST['supporting_facts']
 		insert_date=str(date.today())
-		time=datetime.now().strftime('%H:%M:%S')  
+		time=datetime.now().strftime('%I:%M %p')
 		#print(question_id,question,answer,par_B,par_B,username,insert_date,time )
 
 		sentences=[par_A,par_B]
@@ -104,7 +104,7 @@ def create_view(request):
 			if not count_list:
 				file_name = author_id + '_.json'
 			else:
-				file_name = author_id + str(max(count_list)) + '.json'
+				file_name = author_id +'_'+ str(max(count_list)) + '.json'
 
 
 		with open(directory_name+file_name, "w",encoding='utf-8') as outfile:
@@ -117,7 +117,7 @@ def create_view(request):
 
 		data = pd.read_csv("KMAP_NLP_Dataset - Sample Dataset.csv")
 		df = pd.DataFrame(data)
-		# df=df.head(100)
+		df=df.head(1)
 		# df=df.fillna('Dr. Mark L. Brusseau is a professor in the School of Earth and Environmental Sciences at the University of Arizona, with joint appointments in the Soil, Water and Environmental Science Department and the Hydrology and Water Resources Department.')
 		rand_row = df.sample()
 		print(rand_row)
