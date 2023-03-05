@@ -117,7 +117,7 @@ def create_view(request):
 
 		data = pd.read_csv("KMAP_NLP_Dataset - Sample Dataset.csv")
 		df = pd.DataFrame(data)
-		df=df.head(1)
+		#df=df.head(1)
 		# df=df.fillna('Dr. Mark L. Brusseau is a professor in the School of Earth and Environmental Sciences at the University of Arizona, with joint appointments in the Soil, Water and Environmental Science Department and the Hydrology and Water Resources Department.')
 		rand_row = df.sample()
 		print(rand_row)
