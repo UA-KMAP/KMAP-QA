@@ -2,46 +2,107 @@
 
 {% block content %}
 
-{% if user.is_authenticated %}
+    {% if user.is_authenticated %}
 
-<form action="../create/" method='POST'> {% csrf_token %}
+        <form action="../create/" method='POST'> {% csrf_token %}
 
-<div class="container pt-1">
+            <div class="container pt-1">
 
- {% if user.is_authenticated %}
-        <div class="d-flex justify-content-left">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" ><b>Author Tittle:- {{author_id}}</b></button>
-        </div>
- {%endif%}
- <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+                <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
 
-	<div class="form-group">
+                {% if user.is_authenticated %}
+                    <div class="d-flex justify-content-left">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" name="source_id" ><b>Author
+                            Tittle:- {{ author_id }}</b></button>
+                    </div>
+                {% endif %}
 
-		<!-- <div class="container">
-		  <nav class="navbar navbar-expand-lg nabar-light d-flex justify-content-center" style="background-color: #e3f2fd;">
-		    <div class="navbar-brand " > QA Interface</div>
-		  </nav>
-		</div> -->
+                <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+                <div class="container-fluid justify-content-center" style="border:1px solid #cecece;">
 
-		<div class="container-fluid justify-content-center" style="border:1px solid #cecece;" > 
-		
-		 <div class="navbar-brand float-right" > 
-		 	<a class="btn btn-primary" href="/create">Next</a>
-		 </div>
 
-		 <!-- <div class="navbar-brand float-right" > 
+                    <div class="form-group">
+
+                        <div class="">
+                            {{ form.source_id }}
+                        </div>
+
+                        <div class="title">
+                            {{ form.title_A }}
+                        </div>
+
+                        <div class="paragraph">
+                            {{ form.par_A }}
+                        </div>
+                        <div class="paragraph">
+                            {{ form.par_A_mod }}
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+
+                        <div class="title">
+                            {{ form.title_B }}
+                        </div>
+
+                        <div class="paragraph">
+                            {{ form.par_B }}
+                        </div>
+                         <div class="paragraph">
+                            {{ form.par_B_mod }}
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+                        <div class="question">
+                            <label for="{{ form.question.id_for_label }}">Question:</label>
+                            {{ form.question }} {{ form.question.help_text|safe }}
+                        </div>
+
+                        <div class="answer">
+                            <label for="{{ form.answer.id_for_label }}">Answer:&nbsp;&nbsp;</label>
+                            {{ form.answer }} {{ form.answer.help_text|safe }}
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+
+                        <div>
+                            <label for="{{ form.question_type.id_for_label }}">Type:</label>
+                            {{ form.question_type }} {{ form.question_type.help_text|safe }}
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+                        <div>
+                            <label for="{{ form.level.id_for_label }}">Difficulty Level:</label>
+                            {{ form.level }} {{ form.level.help_text|safe }}
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+
+                        <div>
+                            <label for="{{ form.supporting_facts.id_for_label }}">Supporting facts:</label>
+                            {{ form.supporting_facts }} {{ form.supporting_facts.help_text|safe }}
+
+                        </div>
+
+
+                        <!-- <div class="container">
+                          <nav class="navbar navbar-expand-lg nabar-light d-flex justify-content-center" style="background-color: #e3f2fd;">
+                            <div class="navbar-brand " > QA Interface</div>
+                          </nav>
+                        </div> -->
+
+
+                        <!-- <div class="navbar-brand float-right" >
 		 	<a class="btn btn-info shodow-none">Contributions: {{ contribution}}</a>
 		 </div> -->
-			{{ form.as_p }}
-			<input type="submit" value="Save" class="btn btn-primary">
+                        {#			{{ form.as_p }}#}
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
+                        <input type="submit" value="Save" class="btn btn-primary">
 
-		</div>
-	</div>
-</div>
-</form>
-{% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a>
-{% endif %}
+                    </div>
+                </div>
+            </div>
+        </form>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
 
 {% endblock %}

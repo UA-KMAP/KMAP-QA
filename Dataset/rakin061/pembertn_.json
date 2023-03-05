@@ -1,0 +1,30 @@
+{
+    "id": "pembertn",
+    "Question": "A",
+    "Answer": "B",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "pembertn's biography",
+            "pembertn's articles"
+        ],
+        "sent_id": [
+            0,
+            0
+        ]
+    },
+    "context": {
+        "title": [
+            "pembertn's biography",
+            "pembertn's articles"
+        ],
+        "sentences": [
+            "Jeanne Pemberton, PhD, is a household name in chemistry departments across the country. Her research on surface vibrational spectroscopy has enabled fundamental advances in the field of analytical chemistry.In her 25 years at The University of Arizona, Pemberton has received more than 40 research grants. Among the many boards and committees she serves, she was the chair of the Math and Physical Sciences Advisory Committee at the National Science Foundation in 2004. In addition to receiving the College of Science Distinguished Teaching Award, she has also received the distinguished American Chemical Society Award for Excellence in Analytical Chemistry, which is among the highest honors in her field.Dr. Pemberton’s group research seeks to develop an understanding of chemistry in several technologically important areas including electrochemistry and electrochemically-related devices, chromatography, self-assembled monolayers, surfactant systems, and environmental and atmospheric systems. Methodologies employed for these efforts include surface vibrational spectroscopies, near-field optical methods, electrochemistry, x-ray photoelectron spectroscopy, Auger electron spectroscopy, LEED, work function measurements, ellipsometry, electron microscopy, and the scanning probe microscopies AFM and STM. Molecular nanoscale imaging exists prominently in the ability to elucidate structural and mechanistic details of surface and interfacial chemistry.Two images of transient intermediate states on NaCl in its reaction with the mineral acids, HNO3 and H2SO4, are shown below. These transient structures are formed en route to the final surface products of crystalline NaNO3 and NaHSO4, respectively.Specific interfacial systems of interest include electrochemical battery and electroluminescent and electrochromic devices, models of these devices fabricated and studied in ultrahigh vacuum, organized molecular assemblies at solid surfaces or air-water interfaces formed spontaneously or by self-assembly or Langmuir-Blodgett techniques, chromatography stationary phase systems, soil and mineral systems important in the fate and transport of environmentally important chemicals, and surfaces such as ice, mineral acids, and alkali halides important in atmospheric processes.",
+            "Jeanne Pemberton, PhD, is a household name in chemistry departments across the country. Her research on surface vibrational spectroscopy has enabled fundamental advances in the field of analytical chemistry.In her 25 years at The University of Arizona, Pemberton has received more than 40 research grants. Among the many boards and committees she serves, she was the chair of the Math and Physical Sciences Advisory Committee at the National Science Foundation in 2004. In addition to receiving the College of Science Distinguished Teaching Award, she has also received the distinguished American Chemical Society Award for Excellence in Analytical Chemistry, which is among the highest honors in her field.Dr. Pemberton’s group research seeks to develop an understanding of chemistry in several technologically important areas including electrochemistry and electrochemically-related devices, chromatography, self-assembled monolayers, surfactant systems, and environmental and atmospheric systems. Methodologies employed for these efforts include surface vibrational spectroscopies, near-field optical methods, electrochemistry, x-ray photoelectron spectroscopy, Auger electron spectroscopy, LEED, work function measurements, ellipsometry, electron microscopy, and the scanning probe microscopies AFM and STM. Molecular nanoscale imaging exists prominently in the ability to elucidate structural and mechanistic details of surface and interfacial chemistry.Two images of transient intermediate states on NaCl in its reaction with the mineral acids, HNO3 and H2SO4, are shown below. These transient structures are formed en route to the final surface products of crystalline NaNO3 and NaHSO4, respectively.Specific interfacial systems of interest include electrochemical battery and electroluminescent and electrochromic devices, models of these devices fabricated and studied in ultrahigh vacuum, organized molecular assemblies at solid surfaces or air-water interfaces formed spontaneously or by self-assembly or Langmuir-Blodgett techniques, chromatography stationary phase systems, soil and mineral systems important in the fate and transport of environmentally important chemicals, and surfaces such as ice, mineral acids, and alkali halides important in atmospheric processes."
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "05:13 PM"
+}

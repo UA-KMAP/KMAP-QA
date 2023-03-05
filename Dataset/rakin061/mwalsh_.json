@@ -1,0 +1,34 @@
+{
+    "id": "mwalsh",
+    "Question": "A",
+    "Answer": "B",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "mwalsh's biography",
+            "mwalsh's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "mwalsh's biography",
+            "mwalsh's articles"
+        ],
+        "sentences": [
+            [
+                "I lead the Norton School's Community Research Evaluation & Development (CRED) Team,which conducts high quality, culturally responsive, community-based research and evaluation that promotes the health and well-being of children, youth, adults and families throughout Arizona and the Southwest."
+            ],
+            [
+                "I lead the Norton School's Community Research Evaluation & Development (CRED) Team,which conducts high quality, culturally responsive, community-based research and evaluation that promotes the health and well-being of children, youth, adults and families throughout Arizona and the Southwest."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "06:08 PM"
+}

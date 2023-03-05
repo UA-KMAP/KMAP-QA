@@ -1,0 +1,40 @@
+{
+    "id": "echeu",
+    "Question": "A",
+    "Answer": "B",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "echeu's biography",
+            "echeu's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "echeu's biography",
+            "echeu's articles"
+        ],
+        "sentences": [
+            [
+                "I am working in the Experimental High Energy Physics group where we search for the most fundamental particles in nature.",
+                "My current research interests involve searches for dark matter and physics beyond the Standard Model.",
+                "If we were to discover such phenomenon, it would have a profound impact on understanding the origins of matter, as well as improving our knowledge of the Universe.",
+                "My research takes place primarily at the ATLAS detector, which is one of the experiments at the Large Hadron Collider or LHC."
+            ],
+            [
+                "I am working in the Experimental High Energy Physics group where we search for the most fundamental particles in nature.",
+                "My current research interests involve searches for dark matter and physics beyond the Standard Model.",
+                "If we were to discover such phenomenon, it would have a profound impact on understanding the origins of matter, as well as improving our knowledge of the Universe.",
+                "My research takes place primarily at the ATLAS detector, which is one of the experiments at the Large Hadron Collider or LHC."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "06:08 PM"
+}

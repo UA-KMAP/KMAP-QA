@@ -48,10 +48,13 @@
 </nav>
 
  {% if user.is_authenticated %}
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end ">
             <button class="btn btn-success my-2 my-sm-0" type="submit">Contribution: {{contribution}}</button>
-            
         </div>
+
+      <div class="navbar-brand float-right" >
+		 	<a class="btn btn-primary" href="/create">Next</a>
+      </div>
  {%endif%}
 
 </div>

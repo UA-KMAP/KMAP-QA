@@ -8,9 +8,11 @@ class QA_Interface(models.Model):
 	
 	source_id=models.CharField(max_length=30,blank=False,null=False) # max_length = required
 	title_A=models.CharField(blank=False, null=False,max_length=35)
+	par_A_mod=models.TextField(blank=False, null=False)
 	par_A=models.TextField(blank=False, null=False)
 	title_B=models.CharField(blank=False, null=False,max_length=35)
-	par_B=models.TextField(blank=False, null=False)
+	par_B_mod=models.TextField(blank=False, null=False)
+	par_B = models.TextField(blank=False, null=False)
 	question=models.TextField(blank=False, null=False, max_length=1000,help_text=' &nbsp; <button type="button" class="btn btn-danger btn-sm align-top" data-bs-container="body" '
 																					  'data-bs-toggle="popover" data-bs-placement="right" data-bs-html="true"  '
 																					  'data-bs-content=" Multi-hop questions require systems to aggregate information between '

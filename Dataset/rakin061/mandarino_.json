@@ -1,0 +1,40 @@
+{
+    "id": "mandarino",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "mandarino's biography",
+            "mandarino's articles"
+        ],
+        "sent_id": [
+            0,
+            0
+        ]
+    },
+    "context": {
+        "title": [
+            "mandarino's biography",
+            "mandarino's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Mandarino came to the UA in 2016 from Arizona State University where he served as director of the Center for Metabolic Biology and director of the Mayo/ASU Center for Metabolic and Vascular Biology at Mayo Clinic Arizona.",
+                "Dr. Mandarino previously spent more than 12 years at the University of Texas Health Science Center at San Antonio in the Departments of Medicine, Biochemistry and Physiology.",
+                "He has held faculty appointments at the University of Pittsburgh and the University of California, San Diego, after performing a postdoctoral fellowship in endocrinology at the Mayo Clinic.",
+                "Prior Positions & Appointments Director, Center for Metabolic Biology, Arizona State University (2005-16) Professor of Medicine, College of Medicine, Mayo Clinic, Scottsdale, Ariz. (2010-16) Director, Mayo/ASU Center for Metabolic and Vascular Biology, Mayo Clinic/Arizona State University (2009-16) Professor, School for the Science of Health Care Delivery, Arizona State University (2010-16) Principal Investigator, May Clinic Sangre Por Salud BioBank, Mayo Clinic (2010-16) Professor, Department of Kinesiology, Arizona State University (2005-10) Chair, Department of Kinesiology, Arizona State University (2005-09) Professor, Division of Diabetes, Department of Medicine, University of Texas Health Science Center, San Antonio, Texas (2000-05) Associate Professor, Department of Physiology, University of Texas Health Science Center (1999-2002) Associate Professor, Departments of Medicine and Biochemistry, University of Texas Health Science Center (1992-2000) Assistant Professor, Departments of Ophthalmology and Physiology, University of Pittsburgh School of Medicine (1987-92) Core Laboratory Director, General Clinical Research Center, University of California, San Diego (1983-87) Assistant Adjunct Professor, Division of Endocrinology and Metabolism, University of California, San Diego (1983-87) Assistant Professor, College of Medicine, Mayo Clinic, Rochester, Minn. (1982-83) Senior Research Fellow, Mayo Clinic, Rochester, Minn. (1981-82) Research Fellow, Division of Endocrinology, Department of Internal Medicine, Mayo Clinic, Rochester, Minn. (1978-81) Graduate Research Associate, Department of Anthropology, Arizona State University (1977-78) Teaching Assistant, Department of Anthropology, Arizona State University (1972-97) Journal Review & Editorial Activities Metabolism, Ad Hoc Reviewer (1987-present) Journal of Proteome Research, Editorial Board Journal of Clinical Investigation, Ad Hoc Reviewer (1987-present) Journal of Clinical Endocrinology and Metabolism, Ad Hoc Reviewer (1987-present) Diabetologia, Ad Hoc Reviewer (1987-present) Diabetes Care, Ad Hoc Reviewer (1987-present) Diabetes, Ad Hoc Reviewer (1987-present), Editorial Board (2005-13), Associate Editor (2013-15) American Journal of Physiology, Endocrinology and Metabolism, Editorial Board (1998-99)."
+            ],
+            [
+                "Dr. Mandarino came to the UA in 2016 from Arizona State University where he served as director of the Center for Metabolic Biology and director of the Mayo/ASU Center for Metabolic and Vascular Biology at Mayo Clinic Arizona.",
+                "Dr. Mandarino previously spent more than 12 years at the University of Texas Health Science Center at San Antonio in the Departments of Medicine, Biochemistry and Physiology.",
+                "He has held faculty appointments at the University of Pittsburgh and the University of California, San Diego, after performing a postdoctoral fellowship in endocrinology at the Mayo Clinic.",
+                "Prior Positions & Appointments Director, Center for Metabolic Biology, Arizona State University (2005-16) Professor of Medicine, College of Medicine, Mayo Clinic, Scottsdale, Ariz. (2010-16) Director, Mayo/ASU Center for Metabolic and Vascular Biology, Mayo Clinic/Arizona State University (2009-16) Professor, School for the Science of Health Care Delivery, Arizona State University (2010-16) Principal Investigator, May Clinic Sangre Por Salud BioBank, Mayo Clinic (2010-16) Professor, Department of Kinesiology, Arizona State University (2005-10) Chair, Department of Kinesiology, Arizona State University (2005-09) Professor, Division of Diabetes, Department of Medicine, University of Texas Health Science Center, San Antonio, Texas (2000-05) Associate Professor, Department of Physiology, University of Texas Health Science Center (1999-2002) Associate Professor, Departments of Medicine and Biochemistry, University of Texas Health Science Center (1992-2000) Assistant Professor, Departments of Ophthalmology and Physiology, University of Pittsburgh School of Medicine (1987-92) Core Laboratory Director, General Clinical Research Center, University of California, San Diego (1983-87) Assistant Adjunct Professor, Division of Endocrinology and Metabolism, University of California, San Diego (1983-87) Assistant Professor, College of Medicine, Mayo Clinic, Rochester, Minn. (1982-83) Senior Research Fellow, Mayo Clinic, Rochester, Minn. (1981-82) Research Fellow, Division of Endocrinology, Department of Internal Medicine, Mayo Clinic, Rochester, Minn. (1978-81) Graduate Research Associate, Department of Anthropology, Arizona State University (1977-78) Teaching Assistant, Department of Anthropology, Arizona State University (1972-97) Journal Review & Editorial Activities Metabolism, Ad Hoc Reviewer (1987-present) Journal of Proteome Research, Editorial Board Journal of Clinical Investigation, Ad Hoc Reviewer (1987-present) Journal of Clinical Endocrinology and Metabolism, Ad Hoc Reviewer (1987-present) Diabetologia, Ad Hoc Reviewer (1987-present) Diabetes Care, Ad Hoc Reviewer (1987-present) Diabetes, Ad Hoc Reviewer (1987-present), Editorial Board (2005-13), Associate Editor (2013-15) American Journal of Physiology, Endocrinology and Metabolism, Editorial Board (1998-99)."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "05:15 PM"
+}

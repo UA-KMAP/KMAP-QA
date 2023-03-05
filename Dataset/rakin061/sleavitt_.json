@@ -1,0 +1,36 @@
+{
+    "id": "sleavitt",
+    "Question": "a",
+    "Answer": "b",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "sleavitt's biography",
+            "sleavitt's articles"
+        ],
+        "sent_id": [
+            0,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "sleavitt's biography",
+            "sleavitt's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Leavitt’s research centers on past, present and future global change, variously using light stable-isotope analysis of tree rings, native plant leaves, crop plants, soils and geological materials.",
+                "Short CV  with selected publications."
+            ],
+            [
+                "Dr. Leavitt’s research centers on past, present and future global change, variously using light stable-isotope analysis of tree rings, native plant leaves, crop plants, soils and geological materials.",
+                "Short CV  with selected publications."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "06:00 PM"
+}

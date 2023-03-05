@@ -1,0 +1,38 @@
+{
+    "id": "sbyrne",
+    "Question": "A",
+    "Answer": "B",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "sbyrne's biography",
+            "sbyrne's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "sbyrne's biography",
+            "sbyrne's articles"
+        ],
+        "sentences": [
+            [
+                "I am interested in surface processes on planetary bodies throughout the solar system, especially those processes that affect, or are driven by, planetary ices.",
+                "I enjoy working with a diverse group of graduate students and postdocs.",
+                "Our areas of activity include Martian ice stability, polar stratigraphy and connection to past climates; Ceres ice, both cryovolcanic and as a source of water vapor; and ice-sublimation landforms on a variety of bodies."
+            ],
+            [
+                "I am interested in surface processes on planetary bodies throughout the solar system, especially those processes that affect, or are driven by, planetary ices.",
+                "I enjoy working with a diverse group of graduate students and postdocs.",
+                "Our areas of activity include Martian ice stability, polar stratigraphy and connection to past climates; Ceres ice, both cryovolcanic and as a source of water vapor; and ice-sublimation landforms on a variety of bodies."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-05",
+    "time": "06:07 PM"
+}

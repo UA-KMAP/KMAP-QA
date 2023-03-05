@@ -19,10 +19,11 @@ import pandas as pd
 #username='rakin061'  
 
 def create_view(request):
-	#print(request.GET)
-	#print(request.POST)
+	print(request.GET)
+	print(request.POST)
 	username=str(request.user)
 	form=QA_Form(request.POST or None)
+
 
 	print(form.is_valid())
 	print(form.errors.as_data())
@@ -139,7 +140,7 @@ def create_view(request):
 			contribution=len([name for name in os.listdir(directory_name) if os.path.isfile(os.path.join(directory_name, name))])
 
 
-		form=QA_Form(initial={'title_A':title_a,'title_B':title_b,'par_A': param_a_script,'par_B': param_b_script,"source_id":source_id})
+		form=QA_Form(initial={'title_A':title_a,'title_B':title_b,'par_A': param_a,'par_B': param_b,"source_id":source_id,'par_A_mod':param_a_script,'par_B_mod':param_b_script})
 
 		context={
 			"form": form,
@@ -205,11 +206,11 @@ def split_into_sentences_script(text):
 
 def script_context(text):
 	sentences = sent_tokenize(text)
-	context_list=[]
-	for sentence in sentences:
-		context=sentence[4:]
-		context_list.append(context)
-	return context_list
+	# context_list=[]
+	# for sentence in sentences:
+	# 	context=sentence[4:]
+	# 	context_list.append(context)
+	return sentences
 
 
 
