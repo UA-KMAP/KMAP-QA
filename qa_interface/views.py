@@ -140,13 +140,15 @@ def create_view(request):
 			contribution=len([name for name in os.listdir(directory_name) if os.path.isfile(os.path.join(directory_name, name))])
 
 
-		form=QA_Form(initial={'title_A':title_a,'title_B':title_b,'par_A': param_a,'par_B': param_b,"source_id":source_id,'par_A_mod':param_a_script,'par_B_mod':param_b_script})
+		form=QA_Form(initial={'title_A':title_a,'title_B':title_b,'par_A': param_a,'par_B': param_b,"source_id":source_id})
 
 		context={
 			"form": form,
 			"contribution": contribution,
 			"username":username,
-			"author_id":source_id
+			"author_id":source_id,
+			"par_A":param_a_script,
+			"par_B":param_b_script
 		}
 		return render(request,"qa_create.html",context)
 
@@ -197,7 +199,7 @@ def split_into_sentences_script(text):
 	sentences = sent_tokenize(text)
 	i=0
 	for s in sentences:
-		sentences[i]='['+str(i)+'] '+s
+		sentences[i]='<span class="script">['+str(i)+']</span> '+s
 		i=i+1
 
 	sentences = [s.strip() for s in sentences]
@@ -206,10 +208,6 @@ def split_into_sentences_script(text):
 
 def script_context(text):
 	sentences = sent_tokenize(text)
-	# context_list=[]
-	# for sentence in sentences:
-	# 	context=sentence[4:]
-	# 	context_list.append(context)
 	return sentences
 
 

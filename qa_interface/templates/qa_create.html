@@ -12,30 +12,30 @@
 
                 {% if user.is_authenticated %}
                     <div class="d-flex justify-content-left">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" name="source_id" ><b>Author
+                        <button class="btn btn-outline-success my-2 my-sm-0 source" type="submit"  ><b>Author
                             Tittle:- {{ author_id }}</b></button>
                     </div>
                 {% endif %}
 
                 <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
-                <div class="container-fluid justify-content-center" style="border:1px solid #cecece;">
+                <div class="container-fluid justify-content-center" style="border:1px solid darkgrey;">
 
 
                     <div class="form-group">
 
-                        <div class="">
+                        <div >
                             {{ form.source_id }}
                         </div>
-
+                        <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
                         <div class="title">
                             {{ form.title_A }}
                         </div>
 
-                        <div class="paragraph">
+                        <div >
                             {{ form.par_A }}
                         </div>
-                        <div class="paragraph">
-                            {{ form.par_A_mod }}
+                        <div class="container-fluid paragraph">
+                            {{ par_A|safe}}
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
 
@@ -43,11 +43,11 @@
                             {{ form.title_B }}
                         </div>
 
-                        <div class="paragraph">
+                        <div>
                             {{ form.par_B }}
                         </div>
-                         <div class="paragraph">
-                            {{ form.par_B_mod }}
+                         <div class="container-fluid paragraph">
+                            {{ par_B|safe }}
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">&nbsp;</div>
                         <div class="question">

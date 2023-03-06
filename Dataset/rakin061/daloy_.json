@@ -1,0 +1,38 @@
+{
+    "id": "daloy",
+    "Question": "Whose research interests are in organic and polymer chemistry and also contributes for 3D printing ? ",
+    "Answer": "daloy",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "daloy's biography",
+            "daloy's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "daloy's biography",
+            "daloy's articles"
+        ],
+        "sentences": [
+            [
+                "My research interests are in organic and polymer chemistries that include extensive development of new polymers, polymerization chemistries, polymer characterization, and their applications, such as bio-microfuel cells, membranes, protective coatings, photoresists, sensors, and high surface area adsorbents.",
+                "Presently, my research includes the development of new polymeric sunscreens, polymeric foams, novel materials and chemistries for 3D printing, synthesis and characterization of porous materials, new polymeric antioxidants, fluorescent polymers and particles, and extensive work in sol-gel science.",
+                "Keywords: New Sunscreens"
+            ],
+            [
+                "My research interests are in organic and polymer chemistries that include extensive development of new polymers, polymerization chemistries, polymer characterization, and their applications, such as bio-microfuel cells, membranes, protective coatings, photoresists, sensors, and high surface area adsorbents.",
+                "Presently, my research includes the development of new polymeric sunscreens, polymeric foams, novel materials and chemistries for 3D printing, synthesis and characterization of porous materials, new polymeric antioxidants, fluorescent polymers and particles, and extensive work in sol-gel science.",
+                "Keywords: New Sunscreens"
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-06",
+    "time": "09:30 AM"
+}

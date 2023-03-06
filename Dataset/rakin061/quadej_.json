@@ -1,0 +1,38 @@
+{
+    "id": "quadej",
+    "Question": "Which professor works in low-temperature geochemistry and also overlap with  archeologists and anthropologists?? ",
+    "Answer": "quadej",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "quadej's biography",
+            "quadej's articles"
+        ],
+        "sent_id": [
+            0,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "quadej's biography",
+            "quadej's articles"
+        ],
+        "sentences": [
+            [
+                "My research is quite broad but key central themes are low-temperature geochemistry, radiometric dating, and paleoenvironmental reconstruction, focused largely (but not entirely) the Cenozoic.",
+                "My students and I have been lucky enough to work all over the world on these topics, including the western USA, central Asia, Ethiopia, southern South America, and Turkey.",
+                "On a few recent projects I also overlap with archeologists and anthropologists."
+            ],
+            [
+                "My research is quite broad but key central themes are low-temperature geochemistry, radiometric dating, and paleoenvironmental reconstruction, focused largely (but not entirely) the Cenozoic.",
+                "My students and I have been lucky enough to work all over the world on these topics, including the western USA, central Asia, Ethiopia, southern South America, and Turkey.",
+                "On a few recent projects I also overlap with archeologists and anthropologists."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-06",
+    "time": "11:23 AM"
+}
