@@ -12,7 +12,7 @@ from datetime import date,datetime
 
 from nltk.tokenize import sent_tokenize
 
-import json,re,os.path
+import json,os.path
 import pandas as pd 
 
 
@@ -91,7 +91,7 @@ def create_view(request):
 		#Handling duplicate files for certain users...
 
 		author_name_pattern = author_id + '*.json'
-
+		file_name=''
 		for root, dirs, files in os.walk(directory_name):
 			count_list = []
 			for name in files:

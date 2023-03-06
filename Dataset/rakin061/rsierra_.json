@@ -1,0 +1,36 @@
+{
+    "id": "rsierra",
+    "Question": "Which professor focuses on the investigation and development of processes relying on microorganisms for the treatment of hazardous contaminants and also works on Bioremediation ? ",
+    "Answer": "Dr. Sierra",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "rsierra's biography",
+            "rsierra's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "rsierra's biography",
+            "rsierra's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Sierra’s research focuses on the investigation and development of processes relying on microorganisms for the treatment of hazardous contaminants.",
+                "Ongoing research projects include the following: (1) Bioremediation of nitro-aromatic explosives; (2) Degradation of perfluorinated compounds; (3) Innovative processes for the biological removal of nitrogen in wastewater (Anammox); (4) Bioremediation of metals and metalloids in mine-impacted water; (5) Biotechnology methods for the recovery of critical metals; (6) Toxicity and environmental fate of engineered nanomaterials; (7) Methods for the removal of engineered nanoparticles in semiconductor effluents; (8) Fate of electronic waste in municipal waste landfills"
+            ],
+            [
+                "Dr. Sierra’s research focuses on the investigation and development of processes relying on microorganisms for the treatment of hazardous contaminants.",
+                "Ongoing research projects include the following: (1) Bioremediation of nitro-aromatic explosives; (2) Degradation of perfluorinated compounds; (3) Innovative processes for the biological removal of nitrogen in wastewater (Anammox); (4) Bioremediation of metals and metalloids in mine-impacted water; (5) Biotechnology methods for the recovery of critical metals; (6) Toxicity and environmental fate of engineered nanomaterials; (7) Methods for the removal of engineered nanoparticles in semiconductor effluents; (8) Fate of electronic waste in municipal waste landfills"
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-06",
+    "time": "05:52 PM"
+}
