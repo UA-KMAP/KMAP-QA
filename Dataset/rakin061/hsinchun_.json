@@ -1,0 +1,50 @@
+{
+    "id": "hsinchun",
+    "Question": "Who founded the Artificial Intelligence Lab at The University of Arizona and also a Fellow of ACM, IEEE and AAAS ? ",
+    "Answer": "Dr. Hsinchun Chen",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "hsinchun's biography",
+            "hsinchun's articles"
+        ],
+        "sent_id": [
+            6,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "hsinchun's biography",
+            "hsinchun's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Hsinchun Chen graduated with a BS degree from the National Chiao-Tong University (Taiwan), MBA from SUNY Buffalo, and an MS and Ph.D. from New York University.",
+                "He is the University of Arizona Regents' Professor and Thomas R. Brown Chair professor in Management and Technology.",
+                "He is also a Fellow of ACM, IEEE and AAAS.",
+                "Dr. Chen served as the lead program director of the Smart and Connected (SCH) Program at the NSF for 2014-2015, a multi-year multi-agency health IT research program of in the U.S.",
+                "He is author/editor of 20 books, 300 SCI journal articles, and 200 refereed conference articles covering digital library, data/text/web mining, business analytics, security informatics and health informatics.",
+                "His overall h-index is 97 (35,000 citations for 900 papers according to Google Scholar), among the highest in MIS and top 50 in computer science.",
+                "Dr. Chen founded the Artificial Intelligence Lab at The University of Arizona in 1989, which has received $50M+ research funding from NSF, NIH, NLM, DOD, DOJ, CIA, DHS and other agencies (100+ grants, 50+ from NSF).",
+                "He has served as Editor-in-Chief, Senior Editor or AE of major ACM/IEEE (ACM TMIS, ACM TOIS, IEEE IS, IEEE SMC), MIS (MISQ, DSS) and Springer (JASIST) journals and conference/program chair of major ACM/IEEE/MIS conferences in digital library (ACM/IEEE JCDL, ICADL), information systems (ICIS), security informatics (IEEE ISI) and health informatics (ICSH).",
+                "He is also a successful IT entrepreneur."
+            ],
+            [
+                "Dr. Hsinchun Chen graduated with a BS degree from the National Chiao-Tong University (Taiwan), MBA from SUNY Buffalo, and an MS and Ph.D. from New York University.",
+                "He is the University of Arizona Regents' Professor and Thomas R. Brown Chair professor in Management and Technology.",
+                "He is also a Fellow of ACM, IEEE and AAAS.",
+                "Dr. Chen served as the lead program director of the Smart and Connected (SCH) Program at the NSF for 2014-2015, a multi-year multi-agency health IT research program of in the U.S.",
+                "He is author/editor of 20 books, 300 SCI journal articles, and 200 refereed conference articles covering digital library, data/text/web mining, business analytics, security informatics and health informatics.",
+                "His overall h-index is 97 (35,000 citations for 900 papers according to Google Scholar), among the highest in MIS and top 50 in computer science.",
+                "Dr. Chen founded the Artificial Intelligence Lab at The University of Arizona in 1989, which has received $50M+ research funding from NSF, NIH, NLM, DOD, DOJ, CIA, DHS and other agencies (100+ grants, 50+ from NSF).",
+                "He has served as Editor-in-Chief, Senior Editor or AE of major ACM/IEEE (ACM TMIS, ACM TOIS, IEEE IS, IEEE SMC), MIS (MISQ, DSS) and Springer (JASIST) journals and conference/program chair of major ACM/IEEE/MIS conferences in digital library (ACM/IEEE JCDL, ICADL), information systems (ICIS), security informatics (IEEE ISI) and health informatics (ICSH).",
+                "He is also a successful IT entrepreneur."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-03-21",
+    "time": "10:57 AM"
+}
