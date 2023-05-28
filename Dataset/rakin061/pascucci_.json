@@ -1,0 +1,40 @@
+{
+    "id": "pascucci",
+    "Question": "Which Professor worked his own solar system and also worked with mature stars ?? ",
+    "Answer": "Pascucci",
+    "type": "Intersection",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "pascucci's biography",
+            "pascucci's articles"
+        ],
+        "sent_id": [
+            0,
+            2
+        ]
+    },
+    "context": {
+        "title": [
+            "pascucci's biography",
+            "pascucci's articles"
+        ],
+        "sentences": [
+            [
+                "My research is directed towards understanding how planets form and evolve and how common are planetary systems like our own Solar system.",
+                "To this end, my group carries out observations aimed at characterizing the physical and chemical evolution of gaseous dust disks around young stars, the birth sites of planets.",
+                "In addition, we use exoplanet surveys to re-construct the intrinsic frequency of planets around mature stars.",
+                "By linking the birth sites of planets to the exoplanet populations, we contribute to building a comprehensive and predictive planet formation theory, a necessary step in identifying which nearby stars most likely host a habitable planet like Earth."
+            ],
+            [
+                "My research is directed towards understanding how planets form and evolve and how common are planetary systems like our own Solar system.",
+                "To this end, my group carries out observations aimed at characterizing the physical and chemical evolution of gaseous dust disks around young stars, the birth sites of planets.",
+                "In addition, we use exoplanet surveys to re-construct the intrinsic frequency of planets around mature stars.",
+                "By linking the birth sites of planets to the exoplanet populations, we contribute to building a comprehensive and predictive planet formation theory, a necessary step in identifying which nearby stars most likely host a habitable planet like Earth."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-05-28",
+    "time": "10:10 AM"
+}
