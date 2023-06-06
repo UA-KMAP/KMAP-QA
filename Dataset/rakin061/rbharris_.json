@@ -1,0 +1,44 @@
+{
+    "id": "rbharris",
+    "Question": "aa",
+    "Answer": "bb",
+    "type": "Bridge_entity",
+    "level": "Easy",
+    "supporting_facts": {
+        "title": [
+            "rbharris's biography",
+            "rbharris's articles"
+        ],
+        "sent_id": [
+            0,
+            1
+        ]
+    },
+    "context": {
+        "title": [
+            "rbharris's biography",
+            "rbharris's articles"
+        ],
+        "sentences": [
+            [
+                "Robin B. Harris, MPH, PhD is Professor of Public Health in the Department of Epidemiology and Biostatistics at the Mel and Enid Zuckerman College of Public Health.",
+                "She is also Co-Director of the Skin Cancer Institute at the Arizona Cancer Center.",
+                "Robin is a native Arizonan, although many years have been spent away from the state.",
+                "Her PhD in epidemiology is from the University of Washington and Master’s in Public Health from the University of Texas at Houston.",
+                "Her basic philosophy as an epidemiologist is that the practice of epidemiology is collaborative by nature.",
+                "She seeks to blend teaching, research and service by working with faculty from multiple departments, with health department officials, with students, and with communities."
+            ],
+            [
+                "Robin B. Harris, MPH, PhD is Professor of Public Health in the Department of Epidemiology and Biostatistics at the Mel and Enid Zuckerman College of Public Health.",
+                "She is also Co-Director of the Skin Cancer Institute at the Arizona Cancer Center.",
+                "Robin is a native Arizonan, although many years have been spent away from the state.",
+                "Her PhD in epidemiology is from the University of Washington and Master’s in Public Health from the University of Texas at Houston.",
+                "Her basic philosophy as an epidemiologist is that the practice of epidemiology is collaborative by nature.",
+                "She seeks to blend teaching, research and service by working with faculty from multiple departments, with health department officials, with students, and with communities."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-06-06",
+    "time": "01:00 PM"
+}
