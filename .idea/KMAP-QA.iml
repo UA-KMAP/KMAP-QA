@@ -15,10 +15,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/virutal" />
-      <excludeFolder url="file://$MODULE_DIR$/virtual" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/virtual" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (qa_interface)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (KMAP-QA)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

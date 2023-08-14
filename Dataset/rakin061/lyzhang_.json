@@ -1,0 +1,34 @@
+{
+    "id": "lyzhang",
+    "Question": "Which professor worked in both rock engineering and Eco friendly dust control ? ",
+    "Answer": "Lyzhang",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "lyzhang's biography",
+            "lyzhang's articles"
+        ],
+        "sent_id": [
+            0,
+            0
+        ]
+    },
+    "context": {
+        "title": [
+            "lyzhang's biography",
+            "lyzhang's articles"
+        ],
+        "sentences": [
+            [
+                "Rock mechanics and rock engineering; Pile foundations; Geotechnical earthquake engineering; Sustainable geotechnics and geoenvironmental engineering; Waste recycling and utilization; Sustainable and green construction materials; and Eco-friendly dust control."
+            ],
+            [
+                "Rock mechanics and rock engineering; Pile foundations; Geotechnical earthquake engineering; Sustainable geotechnics and geoenvironmental engineering; Waste recycling and utilization; Sustainable and green construction materials; and Eco-friendly dust control."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-08-14",
+    "time": "01:14 PM"
+}
