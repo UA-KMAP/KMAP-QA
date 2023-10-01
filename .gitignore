@@ -1,1 +1,6 @@
 virtualenv
+hotpot/glove.840B.300d.zip
+hotpot/glove.840B.300d.txt
+hotpot/hotpot_dev_distractor_v1.json
+hotpot/hotpot_dev_fullwiki_v1.json
+hotpot/hotpot_train_v1.1.json
