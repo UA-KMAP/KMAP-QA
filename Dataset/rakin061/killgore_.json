@@ -1,0 +1,42 @@
+{
+    "id": "killgore",
+    "Question": "Which researcher has been worked in higher order cognition and also contributed in caffeine ? ",
+    "Answer": "Dr. Killgore's",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "killgore's biography",
+            "killgore's articles"
+        ],
+        "sent_id": [
+            0,
+            4
+        ]
+    },
+    "context": {
+        "title": [
+            "killgore's biography",
+            "killgore's articles"
+        ],
+        "sentences": [
+            [
+                "Dr. Killgore's research has emphasized the study of higher order cognition and executive functions and how these cognitive abilities are influenced and guided by subtle affective processes.",
+                "Recent sleep-related research has focused on the effects of prolonged sleep deprivation, chronic sleep restriction, and the use of stimulant countermeasures on the cognitive-affective systems within the brain.",
+                "This line of investigation suggests that sleep deprivation alters the metabolic activity within several important affect-regulating regions of the brain, including the medial prefrontal cortex, resulting in subtle but profound effects on specific aspects of affect and cognition.",
+                "These changes appear to impair the ability to use affective processes to guide judgment and decision-making, particularly in high-risk or emotionally charged morally relevant situations.",
+                "His recent investigations also suggest that while commonly used stimulants such as caffeine, modafinil, and dextroamphetamine are highly effective at reversing sleep-loss induced deficits in alertness and vigilance, their restorative effects on the cognitive-affective decision-making systems of the brain may be much more limited."
+            ],
+            [
+                "Dr. Killgore's research has emphasized the study of higher order cognition and executive functions and how these cognitive abilities are influenced and guided by subtle affective processes.",
+                "Recent sleep-related research has focused on the effects of prolonged sleep deprivation, chronic sleep restriction, and the use of stimulant countermeasures on the cognitive-affective systems within the brain.",
+                "This line of investigation suggests that sleep deprivation alters the metabolic activity within several important affect-regulating regions of the brain, including the medial prefrontal cortex, resulting in subtle but profound effects on specific aspects of affect and cognition.",
+                "These changes appear to impair the ability to use affective processes to guide judgment and decision-making, particularly in high-risk or emotionally charged morally relevant situations.",
+                "His recent investigations also suggest that while commonly used stimulants such as caffeine, modafinil, and dextroamphetamine are highly effective at reversing sleep-loss induced deficits in alertness and vigilance, their restorative effects on the cognitive-affective decision-making systems of the brain may be much more limited."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-09-12",
+    "time": "11:08 AM"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "rchipman",
+    "Question": "Which professor worked on Mueller matrix and Retinal oximetry ? ",
+    "Answer": "Rchipman",
+    "type": "Intersection",
+    "level": "Medium",
+    "supporting_facts": {
+        "title": [
+            "rchipman's biography",
+            "rchipman's articles"
+        ],
+        "sent_id": [
+            8,
+            9
+        ]
+    },
+    "context": {
+        "title": [
+            "rchipman's biography",
+            "rchipman's articles"
+        ],
+        "sentences": [
+            [
+                "Polarization engineering.",
+                "Polarization optical design software development and analysis.",
+                "Low polarization optical systems.",
+                "Polarimetry.",
+                "Polarimeter construction and calibration.",
+                "Precision polarization measurements.",
+                "Anisotropic materials, theory, ellipsometry of biaxial and optically active materials and films.",
+                "Polarization of scattered light.",
+                "Mueller matrix BRDF.",
+                "Retinal oximetry."
+            ],
+            [
+                "Polarization engineering.",
+                "Polarization optical design software development and analysis.",
+                "Low polarization optical systems.",
+                "Polarimetry.",
+                "Polarimeter construction and calibration.",
+                "Precision polarization measurements.",
+                "Anisotropic materials, theory, ellipsometry of biaxial and optically active materials and films.",
+                "Polarization of scattered light.",
+                "Mueller matrix BRDF.",
+                "Retinal oximetry."
+            ]
+        ]
+    },
+    "User_name": "rakin061",
+    "Date": "2023-10-01",
+    "time": "09:49 AM"
+}
